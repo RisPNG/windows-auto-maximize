@@ -8,3 +8,7 @@ A Windows utility that automatically adjusts window sizes based on screen resolu
 
 ## Why?
 There's a 100% chance that everyone that has used Windows experienced an awkward (near-)fullscreen windows and thinking they're already in fullscreen. So clicking the (un)maximize button won't do anything since the unmaximized state of the window is already the (near-)fullscreen size. This utility avoids that by giving you the functionality that provides the clarity.
+
+## Installation
+Run the build.cmd and it will generate a single .exe file for you to run.
+Keep in mind that the utility doesn't have any GUI or tray icon that shows that it is running. This is by design because I tend to not want to clutter your system icons by running this simple helper tool. You can monitor its process in task manager called "auto-maximize".
